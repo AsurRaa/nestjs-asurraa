@@ -1,12 +1,12 @@
 {
   "projects": {
-    ".": {
+    "my-library": {
       "type": "library",
-      "root": "libs",
+      "root": ".",
       "entryFile": "index",
-      "sourceRoot": "libs/src",
+      "sourceRoot": "src",
       "compilerOptions": {
-        "tsConfigPath": "libs/tsconfig.lib.json"
+        "tsConfigPath": "./tsconfig.lib.json"
       }
     }
   },
