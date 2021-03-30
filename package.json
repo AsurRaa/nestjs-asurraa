@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "lerna": "lerna",
+    "build:all": "yarn lerna run build",
     "wizard": "npx lerna-wizard",
     "release-gen": "lerna version --conventional-commits --create-release github",
     "git": "sh scripts/git_script.sh"

@@ -1,7 +1,10 @@
 {
     "cSpell.words": [
         "asurraa",
+        "lerna",
         "nestjs",
+        "noreply",
+        "prebuild",
         "typeorm"
     ]
 }

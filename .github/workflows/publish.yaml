@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-
 env:
   CI: true
 jobs:
@@ -17,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
       - name: Git Identity
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -38,6 +37,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-   
 #
