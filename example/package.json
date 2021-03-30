@@ -27,7 +27,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
-    "@asurraa/sura-nest-logger": "link:../packages/sura-logger"
+    "@asurraa/sura-translation": "link:../packages/sura-translation"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.5.6",
