@@ -1,2 +1,10 @@
-# NestJS-AsurRaa 
-> utilities components for asurraa's internal function & components.
+# NestJS-AsurRaa
+
+> utilities components for asurraa internal function & components.
+
+## Features
+
+- [ ] Translate Services
+- [ ] Logger Utils
+
+## @asurraa
