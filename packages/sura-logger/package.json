@@ -14,12 +14,12 @@
     "directory": "packages/sura-logger"
   },
   "dependencies": {
-    "@nestjs/common": "^7.6.13",
-    "@nestjs/testing": "^7.6.13",
-    "@types/jest": "^26.0.20",
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/testing": "^7.6.17",
+    "@types/jest": "^26.0.23",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6",
-    "typescript": "^4.2.2"
+    "rxjs": "^7.1.0",
+    "typescript": "^4.3.2"
   }
 }
