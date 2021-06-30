@@ -1,10 +1,23 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { TranslationModule } from '@asurraa/sura-translation';
+import { TestModule, TestEntity } from '@asurraa/nestjs-library-starter';
 
 @Module({
-  // imports: [],
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'postgres',
+      host: 'localhost',
+      port: 5432,
+      username: 'postgres',
+      password: 'postgres',
+      database: 'nest-test-library',
+      autoLoadEntities: true,
+      synchronize: true,
+    }),
+    TestModule.register(TypeOrmModule.forFeature([TestEntity])),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
