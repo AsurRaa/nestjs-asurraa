@@ -16,12 +16,9 @@
 <br>
 
 
-## Components List as monorepo
+## Module List kanban
 
 | Components                                                                          | Version                                                                                                         | Description                              |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [sura-table](https://github.com/asurraa/sura-ui/tree/master/packages/table)         | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-table.svg?style=flat-square?style=flat-square)     | Extended Antd Table with many functions. |
-| [sura-modal](https://github.com/asurraa/sura-ui/tree/master/packages/modal)         | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-modal.svg?style=flat-square?style=flat-square)     | Drag and Drop Modal.                     |
-| [sura-teamouy](https://github.com/asurraa/sura-ui/tree/master/packages/teamouy)     | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-teamouy.svg?style=flat-square?style=flat-square)   | Configuration based.                     |
-| [sura-utilities](https://github.com/asurraa/sura-ui/tree/master/packages/utilities) | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-utilities.svg?style=flat-square?style=flat-square) | Utilities packages and functions.        |
+| [translation](https://github.com/asurraa/sura-nest/tree/master/packages/translation)         | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-nest-translation.svg?style=flat-square?style=flat-square)     | Translate module as i18n key value base. |
 
