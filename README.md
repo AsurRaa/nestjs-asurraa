@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> SURA NEST </h1>
 <p align="center">
-  <b >NestJS modules implementation here.</b>
+  <b >NestJS modules use internally at AsurRaa.</b>
 </p>
 
 <div align="center">
@@ -15,28 +15,6 @@
   </div>
 <br>
 
-## Todo
-
-- [ ] translate modules base i18n structures.
-
-<!--
-## Description
-
-The combine series of components & utilities are placed here to support our developments workflows.
-
-## Installation
-
-```bash
-yarn add @asurraa/sura-ui
-//or
-npm install @asurraa/sura-ui
-```
-
-## Features
-
-- **Typescript Support** : Support Typescript out of the box.
-- **Rich Business Components** : for business developments workflows.
-- **Extendable** : build on top antd and other powerful ui framworks.
 
 ## Components List as monorepo
 
@@ -47,6 +25,3 @@ npm install @asurraa/sura-ui
 | [sura-teamouy](https://github.com/asurraa/sura-ui/tree/master/packages/teamouy)     | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-teamouy.svg?style=flat-square?style=flat-square)   | Configuration based.                     |
 | [sura-utilities](https://github.com/asurraa/sura-ui/tree/master/packages/utilities) | ![npm package](https://img.shields.io/npm/v/@asurraa/sura-ui-utilities.svg?style=flat-square?style=flat-square) | Utilities packages and functions.        |
 
-## LICENSE
-
-MIT -->
