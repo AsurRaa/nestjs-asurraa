@@ -20,7 +20,7 @@
 2. Register TranslationModule with TypeormModule
 
 ```typescript
-import { TranslationEntity, TranslationModule } from '@sura-nest/translation';
+import { TranslationEntity, TranslationModule } from '@asurraa/sura-nest-translation';
 @Module({
   imports: [
     TranslationModule.register(TypeOrmModule.forFeature([TranslationEntity])),
@@ -32,7 +32,7 @@ import { TranslationEntity, TranslationModule } from '@sura-nest/translation';
 4. Setup init-translation route in AppController
 
 ```typescript
-import { TranslationService } from '@sura-nest/translation';
+import { TranslationService } from '@asurraa/sura-nest-translation';
 
 @Controller()
 export class AppController {
