@@ -1,20 +1,24 @@
-<h1 align="center"></h1>
+<p align="center">
+  <img width="150" src="https://avatars.githubusercontent.com/u/62465909?s=400&u=b543f5c67f4bafb214e9064ac95de21e35daf2d9&v=4">
+</p>
+<h1 align="center"> SURA NEST </h1>
+<p align="center">
+  <b >NestJS modules use internally at AsurRaa.</b>
+</p>
 
 <div align="center">
-  <a href="http://nestjs.com/" target="_blank">
-    <img src="https://nestjs.com/img/logo_text.svg" width="150" alt="Nest Logo" />
-  </a>
+  ![npm package](https://img.shields.io/npm/v/@asurraa/sura-nest-translation.svg?style=flat-square?style=flat-square)
 </div>
+<br>
 
-<h3 align="center">NestJS npm Package Starter</h3>
-
-<div align="center">
-  <a href="https://nestjs.com" target="_blank">
-    <img src="https://img.shields.io/badge/built%20with-NestJs-red.svg" alt="Built with NestJS">
-  </a>
-</div>
 
 ### Installation
+```bash
+npm install @asurraa/sura-nest-translation
+```
+```bash
+yarn add @asurraa/sura-nest-translation
+```
 
 1. Import TranslationModule to AppModule
 2. Register TranslationModule with TypeormModule
@@ -31,6 +35,8 @@ import { TranslationEntity, TranslationModule } from '@asurraa/sura-nest-transla
 3. Import Translation to AppController
 4. Setup init-translation route in AppController
 
+
+
 ```typescript
 import { TranslationService } from '@asurraa/sura-nest-translation';
 
@@ -46,19 +52,18 @@ export class AppController {
   }
 }
 ```
+- `secret` is init param
+- `'asurraa'` is default secret check with  `secret`
 
-## Change Log
+5. POST: [http://localhost:3000/init-translation/asurraa](http://localhost:3000/init-translation/asurraa)
 
-See [Changelog](CHANGELOG.md) for more information.
+## Usage
+the usage of sura-nest-translation
 
-## Contributing
-
-Contributions welcome! See [Contributing](CONTRIBUTING.md).
-
-## Author
-
-**Kimseng Duong**
-
-## License
-
-Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+#### Route
+- `translation/create`
+- `translation/update`
+- `translation/delete/:key`
+- `translation/messages/:lang`
+- `translation/original-data`
+- `translation/baseI18nDataModelData`

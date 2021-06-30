@@ -3,7 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TestModule, TestEntity } from '@asurraa/nestjs-library-starter';
-import { TranslationEntity, TranslationModule } from '@sura-nest/translation';
+import { TranslationEntity, TranslationModule } from '@asurraa/sura-nest-translation';
 @Module({
   imports: [
     TypeOrmModule.forRoot({

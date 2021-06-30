@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@asurraa/nestjs-library-starter": "link:../packages/test",
-    "@sura-nest/translation": "link:../packages/translation",
+    "@asurraa/sura-nest-translation": "link:../packages/translation",
     "@nestjs/common": "^7.6.13",
     "@nestjs/core": "^7.6.13",
     "@nestjs/platform-express": "^7.6.13",

@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Post } from '@nestjs/common';
 import { AppService } from './app.service';
-import { TranslationService } from '@sura-nest/translation';
+import { TranslationService } from '@asurraa/sura-nest-translation';
 
 @Controller()
 export class AppController {
