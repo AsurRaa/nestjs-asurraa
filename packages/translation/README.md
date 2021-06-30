@@ -6,10 +6,11 @@
   <b >NestJS modules use internally at AsurRaa.</b>
 </p>
 
-<div align="center">
-  ![npm package](https://img.shields.io/npm/v/@asurraa/sura-nest-translation.svg?style=flat-square?style=flat-square)
-</div>
-<br>
+<p>
+  <a href="https://www.npmjs.com/package/@asurraa/sura-nest-translation">
+    <img src="https://img.shields.io/npm/v/@asurraa/sura-nest-translation.svg" alt="npm package." />
+  </a>
+</p>
 
 
 ### Installation
